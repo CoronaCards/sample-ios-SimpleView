@@ -1,2 +1,2 @@
-template-single-view
+template-root-view
 ====================
