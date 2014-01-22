@@ -1,2 +1,2 @@
-template-root-view
+sample-SimpleView-ios
 ====================
