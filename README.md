@@ -1,2 +1,2 @@
-sample-SimpleView-ios
+sample-ios-SimpleView
 ====================
