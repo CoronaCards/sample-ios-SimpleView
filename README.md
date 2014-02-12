@@ -17,12 +17,21 @@ The contents of the `CoronaView` are determined via Lua. In this project, the `C
 
 NOTE: The Xcode project is setup to automatically copy the contents of `OverlayChildView/Corona` to a `Corona` subfolder in the destination .app bundle, so you are free to modify/add/delete the Lua files as well as other asset files.
 
+
 # Setup
 
 The sample expects `CoronaKit.framework` to be installed at `/Users/Shared/CoronaLabs/Frameworks/CoronaKit.framework`. 
+
 
 # Requirements
 
 * Xcode 5
 * Mac OS X 10.8 or higher
 
+
+# Version Notes
+
+If you are using an older version of CoronaKit (2014.2174 and earlier), you will need to modify the Xcode project with the following settings:
+
+* Dead Code Stripping: `NO`
+* Other Linker Flags: `-ObjC -all_load -lobjc -lsqlite3`
