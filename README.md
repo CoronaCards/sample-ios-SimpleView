@@ -20,7 +20,7 @@ NOTE: The Xcode project is setup to automatically copy the contents of `OverlayC
 
 # Setup
 
-The sample expects `CoronaKit.framework` to be installed at `/Users/Shared/CoronaLabs/Frameworks/CoronaKit.framework`. 
+The sample expects `CoronaKit.framework` to be installed at `/Users/Shared/CoronaLabs/ios/CoronaKit.framework`. 
 
 
 # Requirements

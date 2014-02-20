@@ -10,7 +10,6 @@
 		071BF63318905A230032F15D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071BF63218905A230032F15D /* Foundation.framework */; };
 		071BF63518905A230032F15D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071BF63418905A230032F15D /* CoreGraphics.framework */; };
 		071BF63718905A230032F15D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071BF63618905A230032F15D /* UIKit.framework */; };
-		071BF63918905A230032F15D /* CoronaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071BF63818905A230032F15D /* CoronaKit.framework */; };
 		071BF63B18905A230032F15D /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071BF63A18905A230032F15D /* AdSupport.framework */; };
 		071BF63D18905A230032F15D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071BF63C18905A230032F15D /* AudioToolbox.framework */; };
 		071BF63F18905A230032F15D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071BF63E18905A230032F15D /* AVFoundation.framework */; };
@@ -45,6 +44,7 @@
 		071BF68618905A230032F15D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071BF63618905A230032F15D /* UIKit.framework */; };
 		071BF68E18905A230032F15D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 071BF68C18905A230032F15D /* InfoPlist.strings */; };
 		071BF69018905A230032F15D /* SimpleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 071BF68F18905A230032F15D /* SimpleViewTests.m */; };
+		A457BE1218B30BA9005CEEB4 /* CoronaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A457BE1118B30BA9005CEEB4 /* CoronaKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,24 +62,23 @@
 		071BF63218905A230032F15D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		071BF63418905A230032F15D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		071BF63618905A230032F15D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		071BF63818905A230032F15D /* CoronaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoronaKit.framework; path = Library/Frameworks/CoronaKit.framework; sourceTree = DEVELOPER_DIR; };
-		071BF63A18905A230032F15D /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
-		071BF63C18905A230032F15D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
-		071BF63E18905A230032F15D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		071BF64018905A230032F15D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		071BF64218905A230032F15D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
-		071BF64418905A230032F15D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
-		071BF64618905A230032F15D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
-		071BF64818905A230032F15D /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
-		071BF64A18905A230032F15D /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
-		071BF64C18905A230032F15D /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
-		071BF64E18905A230032F15D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
-		071BF65018905A230032F15D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		071BF65218905A230032F15D /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = Library/Frameworks/OpenAL.framework; sourceTree = DEVELOPER_DIR; };
-		071BF65418905A230032F15D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
-		071BF65618905A230032F15D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		071BF65818905A230032F15D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		071BF65A18905A230032F15D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		071BF63A18905A230032F15D /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		071BF63C18905A230032F15D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		071BF63E18905A230032F15D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		071BF64018905A230032F15D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		071BF64218905A230032F15D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		071BF64418905A230032F15D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		071BF64618905A230032F15D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		071BF64818905A230032F15D /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		071BF64A18905A230032F15D /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		071BF64C18905A230032F15D /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		071BF64E18905A230032F15D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		071BF65018905A230032F15D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		071BF65218905A230032F15D /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		071BF65418905A230032F15D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		071BF65618905A230032F15D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		071BF65818905A230032F15D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		071BF65A18905A230032F15D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		071BF65E18905A230032F15D /* SimpleView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleView-Info.plist"; sourceTree = "<group>"; };
 		071BF66018905A230032F15D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		071BF66218905A230032F15D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -101,6 +100,7 @@
 		071BF68B18905A230032F15D /* SimpleViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleViewTests-Info.plist"; sourceTree = "<group>"; };
 		071BF68D18905A230032F15D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		071BF68F18905A230032F15D /* SimpleViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleViewTests.m; sourceTree = "<group>"; };
+		A457BE1118B30BA9005CEEB4 /* CoronaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoronaKit.framework; path = /Users/Shared/CoronaLabs/ios/CoronaKit.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +117,9 @@
 				071BF64318905A230032F15D /* CoreLocation.framework in Frameworks */,
 				071BF65918905A230032F15D /* Security.framework in Frameworks */,
 				071BF64518905A230032F15D /* CoreMedia.framework in Frameworks */,
-				071BF63918905A230032F15D /* CoronaKit.framework in Frameworks */,
 				071BF63718905A230032F15D /* UIKit.framework in Frameworks */,
 				071BF63318905A230032F15D /* Foundation.framework in Frameworks */,
+				A457BE1218B30BA9005CEEB4 /* CoronaKit.framework in Frameworks */,
 				071BF63F18905A230032F15D /* AVFoundation.framework in Frameworks */,
 				071BF63D18905A230032F15D /* AudioToolbox.framework in Frameworks */,
 				071BF64718905A230032F15D /* CoreMotion.framework in Frameworks */,
@@ -167,10 +167,10 @@
 		071BF63118905A230032F15D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A457BE1118B30BA9005CEEB4 /* CoronaKit.framework */,
 				071BF63218905A230032F15D /* Foundation.framework */,
 				071BF63418905A230032F15D /* CoreGraphics.framework */,
 				071BF63618905A230032F15D /* UIKit.framework */,
-				071BF63818905A230032F15D /* CoronaKit.framework */,
 				071BF63A18905A230032F15D /* AdSupport.framework */,
 				071BF63C18905A230032F15D /* AudioToolbox.framework */,
 				071BF63E18905A230032F15D /* AVFoundation.framework */,
@@ -497,8 +497,8 @@
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				FRAMEWORK_SEARCH_PATHS = (
-					/Users/Shared/CoronaLabs/Frameworks,
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+					/Users/Shared/CoronaLabs/ios,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleView/SimpleView-Prefix.pch";
@@ -524,8 +524,8 @@
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				FRAMEWORK_SEARCH_PATHS = (
-					/Users/Shared/CoronaLabs/Frameworks,
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+					/Users/Shared/CoronaLabs/ios,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleView/SimpleView-Prefix.pch";
