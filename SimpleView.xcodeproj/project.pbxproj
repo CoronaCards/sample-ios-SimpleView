@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		070F39BD18D135BF00BC2BEE /* CoronaCards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070F39BC18D135BF00BC2BEE /* CoronaCards.framework */; };
 		071BF63318905A230032F15D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071BF63218905A230032F15D /* Foundation.framework */; };
 		071BF63518905A230032F15D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071BF63418905A230032F15D /* CoreGraphics.framework */; };
 		071BF63718905A230032F15D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071BF63618905A230032F15D /* UIKit.framework */; };
@@ -44,7 +45,6 @@
 		071BF68618905A230032F15D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071BF63618905A230032F15D /* UIKit.framework */; };
 		071BF68E18905A230032F15D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 071BF68C18905A230032F15D /* InfoPlist.strings */; };
 		071BF69018905A230032F15D /* SimpleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 071BF68F18905A230032F15D /* SimpleViewTests.m */; };
-		A457BE1218B30BA9005CEEB4 /* CoronaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A457BE1118B30BA9005CEEB4 /* CoronaKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +58,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		070F39BC18D135BF00BC2BEE /* CoronaCards.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoronaCards.framework; path = ../../../../Shared/CoronaLabs/ios/CoronaCards.framework; sourceTree = "<group>"; };
 		071BF62F18905A230032F15D /* SimpleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		071BF63218905A230032F15D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		071BF63418905A230032F15D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -100,7 +101,6 @@
 		071BF68B18905A230032F15D /* SimpleViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleViewTests-Info.plist"; sourceTree = "<group>"; };
 		071BF68D18905A230032F15D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		071BF68F18905A230032F15D /* SimpleViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleViewTests.m; sourceTree = "<group>"; };
-		A457BE1118B30BA9005CEEB4 /* CoronaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoronaKit.framework; path = /Users/Shared/CoronaLabs/ios/CoronaKit.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +119,6 @@
 				071BF64518905A230032F15D /* CoreMedia.framework in Frameworks */,
 				071BF63718905A230032F15D /* UIKit.framework in Frameworks */,
 				071BF63318905A230032F15D /* Foundation.framework in Frameworks */,
-				A457BE1218B30BA9005CEEB4 /* CoronaKit.framework in Frameworks */,
 				071BF63F18905A230032F15D /* AVFoundation.framework in Frameworks */,
 				071BF63D18905A230032F15D /* AudioToolbox.framework in Frameworks */,
 				071BF64718905A230032F15D /* CoreMotion.framework in Frameworks */,
@@ -129,6 +128,7 @@
 				071BF64B18905A230032F15D /* GLKit.framework in Frameworks */,
 				071BF64918905A230032F15D /* CoreVideo.framework in Frameworks */,
 				071BF65518905A230032F15D /* OpenGLES.framework in Frameworks */,
+				070F39BD18D135BF00BC2BEE /* CoronaCards.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,7 +167,7 @@
 		071BF63118905A230032F15D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A457BE1118B30BA9005CEEB4 /* CoronaKit.framework */,
+				070F39BC18D135BF00BC2BEE /* CoronaCards.framework */,
 				071BF63218905A230032F15D /* Foundation.framework */,
 				071BF63418905A230032F15D /* CoreGraphics.framework */,
 				071BF63618905A230032F15D /* UIKit.framework */,

@@ -20,7 +20,7 @@ NOTE: The Xcode project is setup to automatically copy the contents of `OverlayC
 
 # Setup
 
-The sample expects `CoronaKit.framework` to be installed at `/Users/Shared/CoronaLabs/ios/CoronaKit.framework`. 
+The sample expects `CoronaCards.framework` to be installed at `/Users/Shared/CoronaLabs/ios/CoronaCards.framework`. 
 
 
 # Requirements
@@ -31,7 +31,7 @@ The sample expects `CoronaKit.framework` to be installed at `/Users/Shared/Coron
 
 # Version Notes
 
-If you are using an older version of CoronaKit (2014.2174 and earlier), you will need to modify the Xcode project with the following settings:
+If you are using an older version of CoronaCards (2014.2174 and earlier), you will need to modify the Xcode project with the following settings:
 
 * Dead Code Stripping: `NO`
 * Other Linker Flags: `-ObjC -all_load -lobjc -lsqlite3`
