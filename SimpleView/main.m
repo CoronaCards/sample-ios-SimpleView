@@ -2,8 +2,7 @@
 //  main.m
 //  SimpleView
 //
-//  Created by Bryan Smith on 1/22/14.
-//  Copyright (c) 2014 Bryan Smith. All rights reserved.
+//  Copyright (c) 2014 Corona Labs Inc. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
