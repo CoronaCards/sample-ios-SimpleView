@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>DDE6F770-7249-4BD3-88CE-280468F6B6FE</string>
+	<string>4E8677B6-E5FC-43F7-BF5A-440FEE1EBA73</string>
 	<key>IDESourceControlProjectName</key>
 	<string>SimpleView</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>3455E5C3-E809-4FE5-93C2-6B5B1EFEC846</key>
-		<string>https://github.com/coronakit/sample-ios-SimpleView.git</string>
+		<key>0EFF486C-987A-4563-AABA-97D46C0F2B79</key>
+		<string>https://bitbucket.org/coronalabs/sample-ios-SimpleView.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>SimpleView.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>3455E5C3-E809-4FE5-93C2-6B5B1EFEC846</key>
+		<key>0EFF486C-987A-4563-AABA-97D46C0F2B79</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/coronakit/sample-ios-SimpleView.git</string>
+	<string>https://bitbucket.org/coronalabs/sample-ios-SimpleView.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>3455E5C3-E809-4FE5-93C2-6B5B1EFEC846</string>
+	<string>0EFF486C-987A-4563-AABA-97D46C0F2B79</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>3455E5C3-E809-4FE5-93C2-6B5B1EFEC846</string>
+			<string>0EFF486C-987A-4563-AABA-97D46C0F2B79</string>
 			<key>IDESourceControlWCCName</key>
 			<string>sample-ios-SimpleView</string>
 		</dict>

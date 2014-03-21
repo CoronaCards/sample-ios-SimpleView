@@ -260,6 +260,7 @@
 				071BF62B18905A230032F15D /* Sources */,
 				071BF62C18905A230032F15D /* Frameworks */,
 				071BF62D18905A230032F15D /* Resources */,
+				0759238518DCBE2400DFF6C1 /* Copy Corona Resources */,
 			);
 			buildRules = (
 			);
@@ -347,6 +348,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0759238518DCBE2400DFF6C1 /* Copy Corona Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Corona Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"Copying Corona\"\nditto -V \"$PROJECT_DIR\"/Corona \"$TARGET_BUILD_DIR\"/\"$EXECUTABLE_FOLDER_PATH\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		071BF62B18905A230032F15D /* Sources */ = {
