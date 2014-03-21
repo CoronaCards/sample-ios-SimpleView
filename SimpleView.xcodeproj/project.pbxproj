@@ -34,11 +34,6 @@
 		071BF66A18905A230032F15D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071BF66818905A230032F15D /* Main_iPhone.storyboard */; };
 		071BF66D18905A230032F15D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071BF66B18905A230032F15D /* Main_iPad.storyboard */; };
 		071BF67018905A230032F15D /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 071BF66F18905A230032F15D /* ViewController.mm */; };
-		071BF67318905A230032F15D /* crate.png in Resources */ = {isa = PBXBuildFile; fileRef = 071BF67218905A230032F15D /* crate.png */; };
-		071BF67518905A230032F15D /* ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 071BF67418905A230032F15D /* ground.png */; };
-		071BF67718905A230032F15D /* sky.png in Resources */ = {isa = PBXBuildFile; fileRef = 071BF67618905A230032F15D /* sky.png */; };
-		071BF67918905A230032F15D /* config.lua in Resources */ = {isa = PBXBuildFile; fileRef = 071BF67818905A230032F15D /* config.lua */; };
-		071BF67B18905A230032F15D /* main.lua in Resources */ = {isa = PBXBuildFile; fileRef = 071BF67A18905A230032F15D /* main.lua */; };
 		071BF67D18905A230032F15D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 071BF67C18905A230032F15D /* Images.xcassets */; };
 		071BF68418905A230032F15D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071BF68318905A230032F15D /* XCTest.framework */; };
 		071BF68518905A230032F15D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071BF63218905A230032F15D /* Foundation.framework */; };
@@ -90,11 +85,6 @@
 		071BF66C18905A230032F15D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		071BF66E18905A230032F15D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		071BF66F18905A230032F15D /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
-		071BF67218905A230032F15D /* crate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = crate.png; path = Corona/crate.png; sourceTree = "<group>"; };
-		071BF67418905A230032F15D /* ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ground.png; path = Corona/ground.png; sourceTree = "<group>"; };
-		071BF67618905A230032F15D /* sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sky.png; path = Corona/sky.png; sourceTree = "<group>"; };
-		071BF67818905A230032F15D /* config.lua */ = {isa = PBXFileReference; lastKnownFileType = text; name = config.lua; path = Corona/config.lua; sourceTree = "<group>"; };
-		071BF67A18905A230032F15D /* main.lua */ = {isa = PBXFileReference; lastKnownFileType = text; name = main.lua; path = Corona/main.lua; sourceTree = "<group>"; };
 		071BF67C18905A230032F15D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		071BF68218905A230032F15D /* SimpleViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		071BF68318905A230032F15D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -203,7 +193,6 @@
 				071BF66E18905A230032F15D /* ViewController.h */,
 				071BF66F18905A230032F15D /* ViewController.mm */,
 				071BF67C18905A230032F15D /* Images.xcassets */,
-				071BF67118905A230032F15D /* Corona */,
 				071BF65D18905A230032F15D /* Supporting Files */,
 			);
 			path = SimpleView;
@@ -218,18 +207,6 @@
 				071BF66418905A230032F15D /* SimpleView-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		071BF67118905A230032F15D /* Corona */ = {
-			isa = PBXGroup;
-			children = (
-				071BF67218905A230032F15D /* crate.png */,
-				071BF67418905A230032F15D /* ground.png */,
-				071BF67618905A230032F15D /* sky.png */,
-				071BF67818905A230032F15D /* config.lua */,
-				071BF67A18905A230032F15D /* main.lua */,
-			);
-			name = Corona;
 			sourceTree = "<group>";
 		};
 		071BF68918905A230032F15D /* SimpleViewTests */ = {
@@ -328,14 +305,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				071BF67D18905A230032F15D /* Images.xcassets in Resources */,
-				071BF67918905A230032F15D /* config.lua in Resources */,
 				071BF66D18905A230032F15D /* Main_iPad.storyboard in Resources */,
 				071BF66A18905A230032F15D /* Main_iPhone.storyboard in Resources */,
 				071BF66118905A230032F15D /* InfoPlist.strings in Resources */,
-				071BF67718905A230032F15D /* sky.png in Resources */,
-				071BF67B18905A230032F15D /* main.lua in Resources */,
-				071BF67318905A230032F15D /* crate.png in Resources */,
-				071BF67518905A230032F15D /* ground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
