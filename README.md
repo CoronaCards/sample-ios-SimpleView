@@ -15,7 +15,7 @@ This example sets up the `CoronaViewController` as the root view controller of t
 
 The contents of the `CoronaView` are determined via Lua. In this project, the `CoronaView` is told to look for Lua files in the `Corona` subfolder of the .app bundle. 
 
-NOTE: The Xcode project is setup to automatically copy the contents of `SimpleChildView/Corona` to a `Corona` subfolder in the destination .app bundle, so you are free to modify/add/delete the Lua files as well as other asset files.
+NOTE: The Xcode project is setup to automatically copy the contents of `OverlayChildView/Corona` to a `Corona` subfolder in the destination .app bundle, so you are free to modify/add/delete the Lua files as well as other asset files.
 
 
 # Setup
@@ -24,9 +24,11 @@ The sample expects `CoronaCards.framework` to be installed at `/Users/Shared/Cor
 
 See [CoronaCards Setup (iOS)](http://docs.coronalabs.com/coronacards/ios/setup.html) for more info.
 
+
 # Requirements
 
 See [System Requirements](http://docs.coronalabs.com/coronacards/ios/setup.html#system-requirements).
+
 
 # Version Notes
 
