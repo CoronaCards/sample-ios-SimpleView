@@ -25,8 +25,8 @@ The sample expects `CoronaCards.framework` to be installed at `/Users/Shared/Cor
 
 # Requirements
 
-* Xcode 5
-* Mac OS X 10.8 or higher
+* Xcode 6.1
+* Mac OS X 10.9 or higher
 
 
 # Version Notes
