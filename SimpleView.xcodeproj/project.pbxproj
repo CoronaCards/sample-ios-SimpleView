@@ -40,6 +40,7 @@
 		071BF68618905A230032F15D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071BF63618905A230032F15D /* UIKit.framework */; };
 		071BF68E18905A230032F15D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 071BF68C18905A230032F15D /* InfoPlist.strings */; };
 		071BF69018905A230032F15D /* SimpleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 071BF68F18905A230032F15D /* SimpleViewTests.m */; };
+		E67999641BFD385400300582 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E67999631BFD385400300582 /* GameController.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		071BF68B18905A230032F15D /* SimpleViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleViewTests-Info.plist"; sourceTree = "<group>"; };
 		071BF68D18905A230032F15D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		071BF68F18905A230032F15D /* SimpleViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleViewTests.m; sourceTree = "<group>"; };
+		E67999631BFD385400300582 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E67999641BFD385400300582 /* GameController.framework in Frameworks */,
 				071BF63518905A230032F15D /* CoreGraphics.framework in Frameworks */,
 				071BF65B18905A230032F15D /* SystemConfiguration.framework in Frameworks */,
 				071BF64F18905A230032F15D /* MediaPlayer.framework in Frameworks */,
@@ -157,6 +160,7 @@
 		071BF63118905A230032F15D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E67999631BFD385400300582 /* GameController.framework */,
 				070F39BC18D135BF00BC2BEE /* CoronaCards.framework */,
 				071BF63218905A230032F15D /* Foundation.framework */,
 				071BF63418905A230032F15D /* CoreGraphics.framework */,
@@ -483,6 +487,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_OBJC_ARC = NO;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/Shared/CoronaLabs/ios,
@@ -509,6 +514,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_OBJC_ARC = NO;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/Shared/CoronaLabs/ios,
